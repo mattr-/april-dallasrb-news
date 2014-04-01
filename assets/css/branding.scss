@@ -1,0 +1,56 @@
+$font-default: "Helvetica Neue", Helvetica;
+
+/* Override to resolve Font-Awesome and RevealJS styling on icon- */
+i[class^="icon-"]{
+  font-family: FontAwesome;
+  font-style: normal;
+}
+
+html, body{
+  background: #000000;
+  color: #999;
+}
+
+html, body, .reveal{
+  font-family: $font-default;
+  font-size: 22px;
+  line-height: 1.35em;
+}
+
+/* Background Watermark */
+body::before{
+}
+
+a{
+  color: $brand-linkBlue;
+  text-decoration: none;
+}
+
+pre{
+  box-shadow: 0 0 0 3px $brand-lightGrey;
+  border-radius: .25em;
+  /*font-size: 1.5em !important;*/
+}
+
+pre code{
+  display: block;
+  background: $brand-darkGrey;
+  padding: 1em 1em !important;
+  font-family: $codeFont;
+  color: $brand-green !important;
+  line-height: 1.5em !important;
+  word-wrap: break-word;
+}
+
+h1{
+  font-family: "Apex New", $font-default;
+  color: $brand-medGrey;
+  text-align: center;
+}
+
+h2{
+  font-family: "Apex New", $font-default !important;
+  font-weight: normal;
+  color: $brand-medGrey;
+  text-align: center;
+}

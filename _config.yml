@@ -1,0 +1,18 @@
+title: "Dallas Ruby News for April"
+description: "We keep up with everything so you don't have to"
+
+exclude:
+  - script
+  - ".gitignore"
+  - Gemfile
+  - Gemfile.lock
+  - readme.md
+  - node_modules
+  - ".sass-cache"
+  - "package.json"
+  - "*.scss"
+  - "*.coffee"
+  - vendor
+pygments: true
+markdown: kramdown
+excerpt_separator: ""
